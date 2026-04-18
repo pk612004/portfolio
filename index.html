@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Prakash Kumar — Software Developer & AI/ML engineer. Portfolio, projects, and contact." />
+  <title>Prakash Kumar | SDE  AI/ML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="logo" href="#top">PK<span class="logo-dot">.</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a
+        href="https://drive.google.com/file/d/1jmGzkaDvAaasJIakoAR_15i3Yo3LQ0uF/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        >CV</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Stack</a>
+      <a href="#achievements">Highlights</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button type="button" class="menu-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" hidden>
+    <a href="#about">About</a>
+    <a
+      href="https://drive.google.com/file/d/1jmGzkaDvAaasJIakoAR_15i3Yo3LQ0uF/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      >CV</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Stack</a>
+    <a href="#achievements">Highlights</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal" data-reveal>Available for internships &amp; SDE roles</p>
+          <h1 class="hero-title reveal" data-reveal>
+            <span class="line">Hi, I’m <em>Prakash Kumar</em></span>
+            <span class="line sub">Software Engineer , AI/ML</span>
+          </h1>
+          <p class="hero-lead reveal" data-reveal>
+            <!-- I build full-stack products and intelligent pipelines—from real-time WebRTC systems to
+            LLM-powered document intelligence— with clean UX and production-minded deployment. -->
+            I build practical software and AI-driven solutions that solve real problems,combining strong engineering fundamentals with clean design and production-ready deployment.
+          </p>
+          <div class="hero-actions reveal" data-reveal>
+            <a class="btn btn-primary" href="#projects">View work</a>
+            <a class="btn btn-ghost" href="https://github.com/pk612004" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/prakash612004/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <dl class="hero-meta reveal" data-reveal>
+            <div>
+              <dt>College</dt>
+              <dd><span class="meta-long">Thapar Institute of Engineering and Technology</span></dd>
+            </div>
+            <div><dt>Location</dt><dd>Patiala, Punjab, India</dd></div>
+            <div><dt>Graduation</dt><dd>2027</dd></div>
+            <div><dt>Focus</dt><dd>SDE , AI/ML  Systems</dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual reveal" data-reveal>
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <figure class="portrait-frame">
+            <img src="profile.png" alt="Prakash Kumar" width="520" height="650" loading="eager" />
+          </figure>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head reveal" data-reveal>
+        <span class="section-tag">01</span>
+        <h2>Who I am</h2>
+        <p class="section-desc">
+          <!-- Engineering undergraduate at <strong>Thapar Institute of Engineering and Technology</strong>, Patiala—shipping
+          end-to-end apps, APIs, and ML integrations with measurable impact. -->
+           Engineering undergraduate at <strong>Thapar Institute of Engineering and Technology</strong>,building end-to-end applications, APIs, and AI-powered solutions that deliver real-world results.
+          <!-- Engineering undergraduate at Thapar Institute of Engineering and Technology, Patiala, building end-to-end applications, APIs, and AI-powered solutions that deliver real-world results. -->
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal" data-reveal>
+          <h3>Education</h3>
+          <p><strong>Thapar Institute of Engineering and Technology</strong></p>
+          <p class="muted">Patiala, Punjab, India</p>
+          <p>Bachelor of Engineering</p>
+          <p class="muted">2023 — 2027</p>
+        </div>
+        <div class="about-card reveal" data-reveal>
+          <h3>What I deliver</h3>
+          <ul class="checklist">
+            <!-- <li>Full-stack MERN &amp; React + Flask systems</li> -->
+            <li>Full-stack web applications using MERN, React, and Flask</li>
+            <li>LLM, OCR, and NLP pipelines (Groq, spaCy, Tesseract)</li>
+            <li>Real-time features (WebRTC, Socket.IO)</li>
+            <li>Cloud deploys on Render &amp; Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="section-head reveal" data-reveal>
+        <span class="section-tag">02</span>
+        <h2>Experience</h2>
+      </div>
+      <article class="timeline-card reveal" data-reveal>
+        <div class="timeline-marker"></div>
+        <div class="timeline-body">
+          <header>
+            <h3>Software Developer Intern</h3>
+            <p class="company">Hogarth Studios (WPP Group)</p>
+            <p class="muted">June — July 2025 · Gurugram, India</p>
+          </header>
+          <ul>
+            <li>Built responsive HTML/CSS email templates with cross-client compatibility.</li>
+            <li>Designed in <strong>Veeva Vault</strong> for LATAM &amp; Gulf regions per international standards.</li>
+            <li>Ran campaigns via <strong>Salesforce Marketing Cloud</strong> &amp; <strong>Adobe Experience Manager</strong>.</li>
+            <li>Partnered with design &amp; marketing to ship production-ready assets at scale.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-head reveal" data-reveal>
+        <span class="section-tag">03</span>
+        <h2>Selected projects</h2>
+        <p class="section-desc">Production deployments, not just READMEs.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal" data-reveal>
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">◆</span>
+            <div class="project-links">
+              <a href="https://medibridge-frontend-w50t.onrender.com/" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/pk612004/MediBridgePro" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://youtu.be/sNJrdmgbjMw" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </div>
+          <h3>MediBridgePro</h3>
+          <p class="project-tagline">Medical document intelligence</p>
+          <p>React + Flask pipeline: OCR, spaCy, Groq LLM for structured summaries, MUI dashboards, TTS, Render deploy.</p>
+          <ul class="tech-inline">
+            <li>React</li><li>Flask</li><li>Groq</li><li>spaCy</li><li>Tesseract</li><li>Render</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">◇</span>
+            <div class="project-links">
+              <a href="https://trade-sphere-theta.vercel.app" target="_blank" rel="noopener noreferrer">Landing</a>
+              <a href="https://trade-sphere-86l9.vercel.app/" target="_blank" rel="noopener noreferrer">Dashboard</a>
+              <a href="https://github.com/pk612004/TradeSphere" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+          <h3>TradeSphere</h3>
+          <p class="project-tagline">Full-stack stock trading (MERN)</p>
+          <p>MERN platform with REST APIs for orders, portfolio, and positions; MongoDB-optimized queries; Vercel + Render.</p>
+          <ul class="tech-inline">
+            <li>React</li><li>Node</li><li>Express</li><li>MongoDB</li><li>Vercel</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal" data-reveal>
+          <div class="project-top">
+            <span class="project-icon" aria-hidden="true">○</span>
+            <div class="project-links">
+              <a href="https://github.com/pk612004?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </div>
+          <h3>Meetify</h3>
+          <p class="project-tagline">Real-time video conferencing</p>
+          <p>WebRTC P2P video, JWT auth, Socket.IO chat with room sync and sub-200ms connection targets.</p>
+          <ul class="tech-inline">
+            <li>WebRTC</li><li>Socket.IO</li><li>JWT</li>
+          </ul>
+          <p class="note-small">Add a public repo + live deploy URL here when you ship Meetify openly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-head reveal" data-reveal>
+        <span class="section-tag">04</span>
+        <h2>Tech stack</h2>
+      </div>
+      <div class="marquee-wrap reveal" data-reveal aria-hidden="true">
+        <div class="marquee">
+          <span>Java</span><span>Python</span><span>JavaScript</span><span>React</span><span>Next.js</span>
+          <span>Node.js</span><span>Express</span><span>MongoDB</span><span>MySQL</span><span>Docker</span>
+          <span>Git</span><span>Linux</span><span>Groq</span><span>spaCy</span><span>Tesseract</span>
+          <span>Java</span><span>Python</span><span>JavaScript</span><span>React</span><span>Next.js</span>
+          <span>Node.js</span><span>Express</span><span>MongoDB</span><span>MySQL</span><span>Docker</span>
+          <span>Git</span><span>Linux</span><span>Groq</span><span>spaCy</span><span>Tesseract</span>
+        </div>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-block reveal" data-reveal>
+          <h3>Languages</h3>
+          <div class="pills">Java · Python · JavaScript · C</div>
+        </div>
+        <div class="skill-block reveal" data-reveal>
+          <h3>Frontend</h3>
+          <div class="pills">React · Next.js · HTML · CSS · Material UI</div>
+        </div>
+        <div class="skill-block reveal" data-reveal>
+          <h3>Backend &amp; data</h3>
+          <div class="pills">Node.js · Express · Flask · MySQL · MongoDB</div>
+        </div>
+        <div class="skill-block reveal" data-reveal>
+          <h3>AI / ML</h3>
+          <div class="pills">LLM APIs · spaCy · OCR · NLP pipelines</div>
+        </div>
+        <div class="skill-block reveal" data-reveal>
+          <h3>Tools</h3>
+          <div class="pills">GitHub · VS Code · Docker · Linux · Figma</div>
+        </div>
+        <div class="skill-block reveal" data-reveal>
+          <h3>Coursework</h3>
+          <div class="pills">DSA · OS · OOP · DBMS</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section achievements">
+      <div class="section-head reveal" data-reveal>
+        <span class="section-tag">05</span>
+        <h2>Highlights</h2>
+      </div>
+      <ul class="achievement-list">
+        <li class="reveal" data-reveal><span class="ach-icon">01</span> Top <strong>0.5%</strong> nationwide (96.3 percentile) — Naukri Campus Young Turks 2025</li>
+        <li class="reveal" data-reveal><span class="ach-icon">02</span> Top <strong>10</strong> finalist — Mercer Mettl Deep Dive Hackathon (1,600+)</li>
+        <li class="reveal" data-reveal><span class="ach-icon">03</span> <strong>200+</strong> LeetCode problems</li>
+        <li class="reveal" data-reveal><span class="ach-icon">04</span> Stage 2 — National Coding Challenge (top 4k / 20k)</li>
+        <li class="reveal" data-reveal><span class="ach-icon">05</span> Shortlisted — Indian Army Technical Officer (SSB)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head reveal" data-reveal>
+        <span class="section-tag">06</span>
+        <h2>Let’s build</h2>
+        <p class="section-desc">Open to SDE &amp; AI/ML internships and new grad opportunities.</p>
+      </div>
+      <div class="contact-grid reveal" data-reveal>
+        <a class="contact-card" href="mailto:pk612004@gmail.com">
+          <span class="cc-label">Email</span>
+          <span class="cc-value">pk612004@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+919876911148">
+          <span class="cc-label">Phone</span>
+          <span class="cc-value">+91 98769 11148</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/prakash612004/" target="_blank" rel="noopener noreferrer">
+          <span class="cc-label">LinkedIn</span>
+          <span class="cc-value">linkedin.com/in/prakash612004</span>
+        </a>
+        <a class="contact-card" href="https://github.com/pk612004" target="_blank" rel="noopener noreferrer">
+          <span class="cc-label">GitHub</span>
+          <span class="cc-value">github.com/pk612004</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="y"></span> Prakash Kumar · Built for recruiters who skim in 8 seconds.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
